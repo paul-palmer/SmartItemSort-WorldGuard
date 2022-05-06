@@ -1,0 +1,11 @@
+main:         'dev.metanoia.smartitemsort.worldguard.SmartItemSortWorldGuard'
+name:         'SmartItemSortWorldGuard'
+version:      '1.0.0'
+author:       'BornToCode'
+website:      'https://www.spigotmc.org/resources/smartitemsort-worldguard.101850'
+api-version:  '1.16'
+depend:       ['WorldGuard', 'SmartItemSort']
+load:         'POSTWORLD'
+
+description: |
+  Enforces WorldGuard region protections on the item teleports that SmartItemSort performs.
